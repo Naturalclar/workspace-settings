@@ -2,6 +2,7 @@
   "name": "workspace-settings-json",
   "version": "0.0.1",
   "description": "open workspace settings in json format",
+  "repository": "https://github.com/Naturalclar/workspaceSettings.git",
   "license": "MIT",
   "author": "Jesse Katsumata <jesse.katsumata@gmail.com>",
   "main": "./out/extension.js",
@@ -37,5 +38,5 @@
     ]
   },
   "displayName": "Open Workspace Settings (JSON)",
-  "repository": "https://github.com/Naturalclar/workspaceSettings.git"
+  "publisher": "Naturalclar"
 }
