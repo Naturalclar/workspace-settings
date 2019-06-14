@@ -36,5 +36,6 @@
       }
     ]
   },
-  "displayName": "Open Workspace Settings (JSON)"
+  "displayName": "Open Workspace Settings (JSON)",
+  "repository": "https://github.com/Naturalclar/workspaceSettings.git"
 }
