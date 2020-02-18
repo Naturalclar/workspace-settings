@@ -1,6 +1,6 @@
 {
   "name": "workspace-settings-json",
-  "version": "0.0.4",
+  "version": "0.0.3",
   "description": "open workspace settings in json format",
   "repository": "https://github.com/Naturalclar/workspace-settings.git",
   "license": "MIT",
@@ -19,6 +19,9 @@
     "tslint": "^5.12.1",
     "typescript": "^3.3.1",
     "vscode": "^1.1.28"
+  },
+  "engines": {
+    "vscode": ">1.35.0"
   },
   "activationEvents": [
     "onCommand:extension.openWorkspaceSettingsJson"
