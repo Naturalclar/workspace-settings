@@ -9,15 +9,24 @@
   "scripts": {
     "compile": "tsc -p ./",
     "postinstall": "node ./node_modules/vscode/bin/install",
+    "fmt": "prettier --write \"**/*.{json,md,ts,yml}\"",
+    "lint": "eslint \"**/*.ts\" --cache",
     "test": "yarn run compile && node ./node_modules/vscode/bin/test",
     "vscode:prepublish": "yarn run compile",
     "watch": "tsc -watch -p ./"
   },
   "devDependencies": {
-    "@types/mocha": "^2.2.42",
-    "@types/node": "^10.12.21",
-    "typescript": "^3.3.1",
-    "vscode": "^1.1.28"
+    "@types/mocha": "^7.0.1",
+    "@types/node": "^13.7.2",
+    "@typescript-eslint/eslint-plugin": "^2.20.0",
+    "@typescript-eslint/parser": "^2.20.0",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-prettier": "^3.1.2",
+    "prettier": "^1.19.1",
+    "typescript": "^3.7.5",
+    "vscode": "^1.1.36"
   },
   "engines": {
     "vscode": "^1.22.0"
